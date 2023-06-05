@@ -1,13 +1,13 @@
 // controllo js
-console.log(`JS OK`)
+console.log(`JS OK`);
 
 // elemento preso dal DOM
 const listElement = document.getElementById(`list`);
-console.log(listElement)
+console.log(listElement);
 
 // array dalla lista
 const items = [`latte,` , `yogurt,` , `pane,` , `ecc`];
-console.log(items)
+console.log(items);
 
 // variabile item
 let item;
@@ -21,7 +21,7 @@ let item;
 // };
 
 // variabile i
-let i = items
+let i = items;
 
 // ciclo while
 while(!item){
