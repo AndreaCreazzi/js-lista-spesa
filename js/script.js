@@ -6,10 +6,10 @@ const listElement = document.getElementById(`list`);
 console.log(listElement)
 
 // array dalla lista
-
 const items = [`latte,` , `yogurt,` , `pane,` , `ecc`];
 console.log(items)
-// variabile html
+
+// variabile item
 let item;
 
 // ciclo for
@@ -20,13 +20,14 @@ let item;
 //     listElement.innerText += item
 // };
 
-// ciclo while
-
+// variabile i
 let i = items
- while(!item){
-    item = i
-    i++
-    console.log(item)
-   //  elemento inserito nel DOM
-    listElement.innerText += item
-   };
+
+// ciclo while
+while(!item){
+   item = i
+   i++
+   console.log(item)
+   // elemento inserito nel DOM
+   listElement.innerText += item
+};
